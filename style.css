@@ -1,0 +1,299 @@
+body{
+    font-family: Hiragino Sans CNS;
+    color: white;
+    background-size:cover;
+    background-repeat: repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    margin: auto;
+    width: 33%;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(#1A1A1A, #666666);
+    height: 700px;
+
+    
+}
+.wrapper img{
+		align-content: center;
+		max-width: 100%;
+		display: block;
+        height: auto;
+}
+h1
+{
+    color: white;
+}
+.knopje{
+    background-image: linear-gradient(#17C700, #0C6400);
+    text-decoration: none;
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.link{
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    display: block;
+    font-size: 2em;
+
+}
+input{
+    border: 1px solid white;
+margin: 0;
+padding: 0;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+background-color: rgba(43, 43, 43, 0);
+color: white;
+font-size: 1em;
+padding-top: 0.5em;
+}
+.lgin{
+    text-align: left;
+}
+.pro {
+
+    border-top: 2px solid rgb(255, 255, 255);
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .box img{
+    width: 100%;
+  }
+  .box {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em 1em;
+    text-align: center;
+  }
+  .poetin{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: left;
+  }
+  .poetin button{
+    background-image: linear-gradient(#17C700, #0C6400);
+    text-decoration: none;
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: #0C6400;
+    font-size: 1em;
+}
+  h1{
+    font-family: Hoefler Text;
+    margin-bottom: 90px;
+    font-size: 60px;
+  }
+  .tin{
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+    display: block;
+    font-size: 2em;
+    margin-top: -55px;
+}
+.basura {
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    font-size: 1.7em;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    border-right: 1px solid rgb(255, 255, 255);
+    width: 45%;
+    float:left; /* add this */
+
+}
+#second {
+    margin-left: 5px;
+    float: left; /* add this */
+    text-align: left;
+}
+.knopski{
+    text-decoration: none;
+    color: white;
+}
+.knopski2{
+    text-decoration: none;
+    color: white;
+
+}
+.wropper {
+    margin: auto;
+    width: 33%;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(#1A1A1A, #666666);
+    height: 600px;
+   
+}
+.wropper img{
+    max-width: 90%;
+
+}
+.paniek{
+    background-image: linear-gradient(rgb(199, 0, 0), rgb(100, 0, 0));
+    text-decoration: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    float: right;
+    display: block;
+    font-size: 1.8em;
+    margin-top: -55px;
+    padding: 3px 10px;
+}
+label {
+    text-align: left;
+}
+.knopjew{
+    background-image: linear-gradient(#17C700, #0C6400);
+    text-decoration: none;
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    color: white;
+    padding: 6px 20px;
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+
+}
+.knopjew img{
+    width: 20px;
+}
+#trit {
+    text-align: right;
+    width: 70%;
+    float:left; 
+    padding-top: 5px;
+    margin-left: 23%;
+
+}
+#trit button{
+    color: white;
+    background-image: linear-gradient(#17C700, #0C6400);
+    width: 70%;
+    height: 40%;
+    border: #0C6400;
+    border-radius: 10px;
+    font-size: 1em;
+}
+#trit img{
+    width: 12%;
+}
+#secondo {
+    width: 30%;
+    float: right; /* add this */
+    text-align: left;
+}
+#secondo img{
+    width: 60%;
+}
+#roww{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+#roww a{
+    margin-left: 15%;
+}
+#roww1{
+    background-color: #0C6400;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+#roww1 a{
+    margin-left: 15%;
+}
+.maand{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        margin: auto;
+        width: 60%;
+        border: 1px solid gray;
+        padding: 10px;
+        text-align: center;
+        background-image: linear-gradient(#1A1A1A, #666666);
+        height: 600px;
+    
+        
+    }
+    .basura{
+        font-size: 1em;
+    }
+    #trit {
+        margin-left: 23%;
+    }
+    #trit img{
+        width: 22%;
+    }
+    #secondo img{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .wrapper {
+        margin: auto;
+        width: 80%;
+        border: 1px solid gray;
+        padding: 10px;
+        text-align: center;
+        background-image: linear-gradient(#1A1A1A, #666666);
+        height: 600px;
+    
+        
+    }
+    .basura{
+        font-size: 0.7em;
+    }
+    #roww{
+
+        letter-spacing: 0em;
+    }
+}

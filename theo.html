@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tareas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "author" content="Sam Harwig">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+        <audio id="myAudio">
+                <source src="stem.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+    <div class="wropper">
+        <a class="link" href="pendejo.html"><<</a>
+        <a class="paniek" href="paniek.html">paniek</a>
+        <br>
+    </h2>
+    <div class="basur">
+            <img class="schuur" src="img/bed.png">
+        </div>
+        <h3>Wakker worden</h3>
+        <br>
+        <div>U heeft <span id="time"></span> minuten de tijd</div>
+        <br>
+        <div class="basura">
+                <div id="trit">
+                  <button onclick="playAudio()" type="button">Audio<img src="img/speaker.png"></button>
+                </div>
+                <div id="secondo"><a class="knopsko" href="goe.html" ><img src="img/pijl.png"></a>
+                    
+                </div>
+            </div>
+            
+    </div>
+    </div>
+</body>
+                    
+    </html>
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+            function startTimer(duration, display) {
+            var start = Date.now(),
+                diff,
+                minutes,
+                seconds;
+            function timer() {
+                // get the number of seconds that have elapsed since 
+                // startTimer() was called
+                diff = duration - (((Date.now() - start) / 1000) | 0);
+        
+                // does the same job as parseInt truncates the float
+                minutes = (diff / 60) | 0;
+                seconds = (diff % 60) | 0;
+        
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+        
+                display.textContent = minutes + ":" + seconds; 
+        
+                if (diff <= 0) {
+                    // add one second so that the count down starts at the full duration
+                    // example 05:00 not 04:59
+                    start = Date.now() + 1000;
+                }
+            };
+            // we don't want to wait a full second before the timer starts
+            timer();
+            setInterval(timer, 1000);
+        }
+        
+        window.onload = function () {
+            var fiveMinutes = 60 * 3,
+                display = document.querySelector('#time');
+            startTimer(fiveMinutes, display);
+        };
+            
+        </script>
